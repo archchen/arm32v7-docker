@@ -43,7 +43,7 @@ RUN set -ex && \
     rm -rf /tmp/*
 
 
-ENV SERVER_ADDR=:: \
+ENV SERVER_ADDR="::" \
 SERVER_PORT=19980 \
 PASSWORD=this@mysite! \
 METHOD=chacha20 \
