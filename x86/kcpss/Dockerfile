@@ -22,7 +22,7 @@ RUN set -ex && \
                                 pcre-dev \
                                 tar \
                                 tzdata \
-                                udns-dev && \
+                                 c-ares-dev && \
     cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
     cd /tmp && \
     curl -sSL $KCP_URL | tar xz server_linux_amd64 && \
